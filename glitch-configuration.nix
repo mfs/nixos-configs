@@ -46,6 +46,9 @@
   services.xserver.layout = "us";
   services.xserver.windowManager.i3.enable = true;
 
+  services.xserver.desktopManager.default = "none";
+  services.xserver.desktopManager.xterm.enable = false;
+
   services.xserver.synaptics.enable = true;
   services.xserver.synaptics.twoFingerScroll = true;
 
