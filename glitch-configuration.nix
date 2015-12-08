@@ -9,6 +9,7 @@
   # boot loader
   boot.loader.gummiboot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+  boot.initrd.luks.devices = [ { name = "luksroot"; device = "/dev/sda2"; } ];
 
   # network
   networking.hostName = "glitch";
